@@ -131,11 +131,12 @@ for ($i = 1; $i -le 10; $i++) {
    Start-Sleep -Seconds 4
 }
 for ($i = 1; $i -le 10; $i++) {
-   Write-Progress -Activity 'PHASE 3/3 — FPD RESPONSE-(Did you know that more movies are becoming furry like?)' -Status '🐾 Preparing FPD response...' -PercentComplete ($i * 10)
-   Paw '[PHASE 3/3 — FPD RESPONSE] Furry security systems loading...' 'Magenta'
-   Start-Sleep -Seconds 2
+   Write-Progress -Activity 'PHASE 3/3 — F.T.O.P.S RESPONSE-(Did you know that more movies are becoming furry like?)' -Status '🐾 Preparing F.T.O.P.S response...' -PercentComplete ($i * 10)
+   Paw '[PHASE 3/3 — F.T.O.P.S RESPONSE] Furry security systems loading...' 'Magenta'
+   Start-Sleep -Seconds 1
 }
-Write-Progress -Activity 'FPD Boot' -Completed
+Write-Progress -Activity 'F.T.O.P.S Boot' -Completed
+Start-Sleep -Seconds 1
 
 
 
